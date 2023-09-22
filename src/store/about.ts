@@ -1,7 +1,14 @@
-// about.js
+// about.js -> about.ts
 import { Store } from "../core/core";
 
-export default new Store({
+interface State {
+  photo: string
+  name: string
+  email: string
+  github: string
+  repository: string
+}
+export default new Store<State>({
   photo: 'https://avatars.githubusercontent.com/u/71330240?v=4',
   name: 'rhdmswls12 / Eunjin',
   email: 'a66613075@gmail.com',

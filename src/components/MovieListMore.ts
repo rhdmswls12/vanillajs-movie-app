@@ -1,4 +1,4 @@
-// MovieListMore.js
+// MovieListMore.js -> MovieListMore.ts
 import { Component } from "../core/core";
 import movieStore, { searchMovies } from "../store/movie";
 

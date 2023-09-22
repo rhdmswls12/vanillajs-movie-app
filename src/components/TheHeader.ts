@@ -1,7 +1,16 @@
-// TheHeader.js
+// TheHeader.js -> TheHeader.ts
 import { Component } from "../core/core";
 
+interface State {
+  [key: string]: unknown
+  menus: {
+    name: string
+    href: string
+  }[]
+}
+
 export default class TheHeader extends Component {
+  public state!: State
   constructor() {
     super({
       tagName: 'header',

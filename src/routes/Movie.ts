@@ -1,4 +1,4 @@
-// Movie.js
+// Movie.js -> Movie.ts
 import { Component } from "../core/core";
 import movieStore, {getMovieDetails} from '../store/movie'
 
@@ -48,7 +48,7 @@ export default class Movie extends Component {
     </div>
     <div>
       <h3>Director</h3>
-      <p>${movie.Directors}</p>
+      <p>${movie.Director}</p>
     </div>
     <div>
       <h3>Production</h3>

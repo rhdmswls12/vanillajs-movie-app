@@ -1,8 +1,14 @@
-// MovieItem.js
+// MovieItem.js -> MovieItem.ts
 import { Component } from "../core/core";
+import { SimpleMovie } from "../store/movie";
 
+interface Props {
+  [key: string]: unknown
+  movie: SimpleMovie
+}
 export default class MovieItem extends Component {
-  constructor(props) {
+  public props!: Props
+  constructor(props: Props) {
     super({
       props,
       tagName: 'a'

@@ -1,4 +1,4 @@
-// TheFooter.js
+// TheFooter.js -> TheFooter.ts
 import { Component } from "../core/core";
 import aboutStore from "../store/about";
 

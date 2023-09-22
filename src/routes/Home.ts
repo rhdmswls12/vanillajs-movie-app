@@ -1,4 +1,4 @@
-// Home.js
+// Home.js -> Home.ts
 import { Component } from "../core/core";
 import Headline from '../components/Headline';
 import Search from '../components/Search';
