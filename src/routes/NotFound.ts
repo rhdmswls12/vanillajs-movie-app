@@ -1,4 +1,4 @@
-// NotFound.js
+// NotFound.js -> NotFound.ts
 import { Component } from "../core/core";
 
 export default class NotFound extends Component {

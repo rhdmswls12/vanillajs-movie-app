@@ -1,4 +1,4 @@
-// Headline.js
+// Headline.js -> Headline.ts
 import { Component } from "../core/core";
 
 export default class Headline extends Component {

@@ -1,4 +1,4 @@
-// About.js
+// About.js -> About.ts
 import { Component } from "../core/core";
 import aboutStore from "../store/about";
 
